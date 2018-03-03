@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/ganesh/.gradle/caches/modules-2/files-2.1/com.google.apis/google-api-services-drive/v2-rev155-1.19.0/235a6524521e4952caf963fd8ac30de46bee25b2/google-api-services-drive-v2-rev155-1.19.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="235a6524521e4952caf963fd8ac30de46bee25b2">
+        <dex dex="/home/ganesh/AndroidStudioProjects/maps/app/build/intermediates/pre-dexed/debug/google-api-services-drive-v2-rev155-1.19.0-6f867e6e50cc15cb40b09e0dfe7218d9ba3b2ece.jar" />
+    </item>
+    <item
+        jar="/home/ganesh/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-jackson2/1.19.0/81dbf9795d387d5e80e55346582d5f2fb81a42eb/google-http-client-jackson2-1.19.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="81dbf9795d387d5e80e55346582d5f2fb81a42eb">
+        <dex dex="/home/ganesh/AndroidStudioProjects/maps/app/build/intermediates/pre-dexed/debug/google-http-client-jackson2-1.19.0-6f586f68518288b2a85ea9373dd6093073505b53.jar" />
+    </item>
+    <item
+        jar="/home/ganesh/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.1.3/f6c3aed1cdfa21b5c1737c915186ea93a95a58bd/jackson-core-2.1.3.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
+        <dex dex="/home/ganesh/AndroidStudioProjects/maps/app/build/intermediates/pre-dexed/debug/jackson-core-2.1.3-f3acac35f0772989ae797a5acbeb4a0b278e4d36.jar" />
+    </item>
+    <item
+        jar="/home/ganesh/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-android/1.18.0-rc/cc519375a59b88327d65b79172798e7e6417bc78/google-http-client-android-1.18.0-rc.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="cc519375a59b88327d65b79172798e7e6417bc78">
+        <dex dex="/home/ganesh/AndroidStudioProjects/maps/app/build/intermediates/pre-dexed/debug/google-http-client-android-1.18.0-rc-18a34af06d2d05e155f9ca61d31a487312f30b80.jar" />
+    </item>
+    <item
+        jar="/home/ganesh/AndroidStudioProjects/maps/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/home/ganesh/AndroidStudioProjects/maps/app/build/intermediates/pre-dexed/debug/classes-2ab2c6bc5b31c306d8225a5309ddb1ddd96701b7.jar" />
+    </item>
+    <item
+        jar="/home/ganesh/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.1/2e66da15851f9f5b5079228f856c2f090ba98c38/gson-2.1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="2e66da15851f9f5b5079228f856c2f090ba98c38">
+        <dex dex="/home/ganesh/AndroidStudioProjects/maps/app/build/intermediates/pre-dexed/debug/gson-2.1-9ba6a62a62d9256313cd5602f42b8a0d5642de43.jar" />
+    </item>
+    <item
+        jar="/home/ganesh/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.17/f417d7f776d1ee5858fc04d9362aa45e9bedd26b/library-1.0.17.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f417d7f776d1ee5858fc04d9362aa45e9bedd26b">
+        <dex dex="/home/ganesh/AndroidStudioProjects/maps/app/build/intermediates/pre-dexed/debug/library-1.0.17-39afe3b7324121a63ff908607df53172a55d6671.jar" />
+    </item>
+    <item
+        jar="/home/ganesh/AndroidStudioProjects/maps/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/home/ganesh/AndroidStudioProjects/maps/app/build/intermediates/pre-dexed/debug/classes-dabdc0a2d28955fcbc1ae5a4f571aa035b074af0.jar" />
+    </item>
+    <item
+        jar="/home/ganesh/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-gson/1.18.0-rc/82647ac9ebf591b4517f8863ed4c84367cde0728/google-http-client-gson-1.18.0-rc.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="82647ac9ebf591b4517f8863ed4c84367cde0728">
+        <dex dex="/home/ganesh/AndroidStudioProjects/maps/app/build/intermediates/pre-dexed/debug/google-http-client-gson-1.18.0-rc-1d79beb998e77586fafc664f89b6ded3dd5361f0.jar" />
+    </item>
+    <item
+        jar="/home/ganesh/AndroidStudioProjects/maps/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/home/ganesh/AndroidStudioProjects/maps/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-4f0f3381208cab3a8d3aae6601472bbe390d02b6.jar" />
+    </item>
+    <item
+        jar="/home/ganesh/.gradle/caches/modules-2/files-2.1/org.jbundle.util.osgi.wrapped/org.jbundle.util.osgi.wrapped.org.apache.http.client/4.1.2/98c86e42679fe7ac066f6c242e0d14f0bce0bb7c/org.jbundle.util.osgi.wrapped.org.apache.http.client-4.1.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="98c86e42679fe7ac066f6c242e0d14f0bce0bb7c">
+        <dex dex="/home/ganesh/AndroidStudioProjects/maps/app/build/intermediates/pre-dexed/debug/org.jbundle.util.osgi.wrapped.org.apache.http.client-4.1.2-7157bec87ad7ed3d243fbafe1154aa5aaf34da71.jar" />
+    </item>
+    <item
+        jar="/home/ganesh/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client/1.19.0/cdca49ad0977c040f603478aa2e16b2775c8fec6/google-http-client-1.19.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="cdca49ad0977c040f603478aa2e16b2775c8fec6">
+        <dex dex="/home/ganesh/AndroidStudioProjects/maps/app/build/intermediates/pre-dexed/debug/google-http-client-1.19.0-297069d80a9f27c14b8f175fe05da05ffab9c55b.jar" />
+    </item>
+    <item
+        jar="/home/ganesh/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-xml/1.18.0-rc/a1ec1a695625d9a514962f0b93400fcdd1897223/google-http-client-xml-1.18.0-rc.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="a1ec1a695625d9a514962f0b93400fcdd1897223">
+        <dex dex="/home/ganesh/AndroidStudioProjects/maps/app/build/intermediates/pre-dexed/debug/google-http-client-xml-1.18.0-rc-ad13ed33f733ffcb20a36d4fae911fbcce605426.jar" />
+    </item>
+    <item
+        jar="/home/ganesh/.gradle/caches/modules-2/files-2.1/com.google.guava/guava-jdk5/13.0/381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7/guava-jdk5-13.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7">
+        <dex dex="/home/ganesh/AndroidStudioProjects/maps/app/build/intermediates/pre-dexed/debug/guava-jdk5-13.0-b5d6b736afcf18c53bef7fc0fd2f6a6aeea9e8ef.jar" />
+    </item>
+    <item
+        jar="/home/ganesh/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client/1.19.0/6a21277d9bebe267b7ddee028b241eebc756c040/google-api-client-1.19.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="6a21277d9bebe267b7ddee028b241eebc756c040">
+        <dex dex="/home/ganesh/AndroidStudioProjects/maps/app/build/intermediates/pre-dexed/debug/google-api-client-1.19.0-8e516c0d61b042df82fa2ff200347e4d17e01b49.jar" />
+    </item>
+    <item
+        jar="/home/ganesh/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client-xml/1.18.0-rc/7af8b2b05608938f4a5f970785e7bce83fa9bbaa/google-api-client-xml-1.18.0-rc.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="7af8b2b05608938f4a5f970785e7bce83fa9bbaa">
+        <dex dex="/home/ganesh/AndroidStudioProjects/maps/app/build/intermediates/pre-dexed/debug/google-api-client-xml-1.18.0-rc-5d4b9e40be66b13f521e2b5c0ef44c01be4c49bd.jar" />
+    </item>
+    <item
+        jar="/home/ganesh/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client-android/1.18.0-rc/5a61d590275464895d783fb1612418964e20162e/google-api-client-android-1.18.0-rc.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="5a61d590275464895d783fb1612418964e20162e">
+        <dex dex="/home/ganesh/AndroidStudioProjects/maps/app/build/intermediates/pre-dexed/debug/google-api-client-android-1.18.0-rc-8c06f14f95b091f95c182b9d9ebaa6b4076a53cd.jar" />
+    </item>
+    <item
+        jar="/home/ganesh/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/1.3.9/40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf/jsr305-1.3.9.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="/home/ganesh/AndroidStudioProjects/maps/app/build/intermediates/pre-dexed/debug/jsr305-1.3.9-c9765e02ba29e76a8e97c23267b646e334ce752a.jar" />
+    </item>
+    <item
+        jar="/home/ganesh/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client/1.19.0/d473a8962e14a707a3716637e4898bb2dd9643f2/google-oauth-client-1.19.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="d473a8962e14a707a3716637e4898bb2dd9643f2">
+        <dex dex="/home/ganesh/AndroidStudioProjects/maps/app/build/intermediates/pre-dexed/debug/google-oauth-client-1.19.0-2d9a6a7a8d7c8aab58233d092a70e841df70d523.jar" />
+    </item>
+    <item
+        jar="/home/ganesh/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/home/ganesh/AndroidStudioProjects/maps/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-e6ad245417c528d7945af712587a542f685497d6.jar" />
+    </item>
+    <item
+        jar="/home/ganesh/AndroidStudioProjects/maps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/jars/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="/home/ganesh/AndroidStudioProjects/maps/app/build/intermediates/pre-dexed/debug/classes-676a48ec9dfa25db20ef26f32168a4d92a5b0c01.jar" />
+    </item>
+
+</items>
