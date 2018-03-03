@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:appcompat="http://schemas.android.com/apk/res-auto"
+
+    tools:context="com.example.androidcontrols.ActionBarSearchViewActivity" >
+
+    <item android:id="@+id/map"
+        android:icon="@android:drawable/ic_menu_add"
+        android:actionMenuTextColor="@style/ThemeName"
+        android:title="Map"
+        appcompat:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/call"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Call"
+        appcompat:showAsAction="ifRoom"
+        />
+
+    <item android:id="@+id/transport"
+        android:icon="@android:drawable/ic_menu_add"
+        android:actionMenuTextColor="@style/ThemeName"
+        android:title="Transport"
+        appcompat:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/reviews"
+        android:icon="@android:drawable/ic_menu_add"
+        android:actionMenuTextColor="@style/ThemeName"
+        android:title="Reviews"
+        appcompat:showAsAction="ifRoom"/>
+
+</menu>
