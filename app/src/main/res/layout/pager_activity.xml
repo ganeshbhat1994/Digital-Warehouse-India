@@ -1,0 +1,513 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.ganesh.myapplication.warehouse.PageActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ffffff">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:id="@+id/txtWarning"
+            android:textColor="#ff0000"
+            android:background="#ffffff"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtHeading"
+            android:textSize="30dp"
+            android:paddingLeft="5dp"
+            android:paddingBottom="3dp"
+            android:text="Central Warehouse Corperation"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#2f6699"
+            android:background="#ffffff"/>
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="false"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:focusable="false"
+            android:fitsSystemWindows="false"
+            android:id="@+id/rateBar2"
+            android:background="#ffffff"
+            android:foreground="#ffde03"
+            android:layout_gravity="center_horizontal" />
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:padding="3dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#ffffff">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtUid"
+                    android:text=""
+                    android:background="#ffffff"
+                    android:textColor="#2f6699"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="#ffffff">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtAddress"
+                        android:text="Address :"
+                        android:background="#ffffff"
+                        android:paddingLeft="5dp"
+                        android:paddingBottom="5dp"
+                        android:textSize="20dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="2dp"
+                        android:textColor="#2f6699"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtOwnName"
+                        android:paddingBottom="5dp"
+                        android:textSize="15dp"
+                        android:text="Renuprasad B R"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="#ffffff"
+                        android:textColor="#2f6699"
+                        />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtAddress1"
+                    android:text=" Siddaganaga institute of technology"
+                    android:paddingBottom="5dp"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="95dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="#ffffff"
+                    android:textColor="#2f6699"
+                     />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtAddress2"
+                    android:text=" Sit tumkur"
+                    android:paddingBottom="5dp"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="95dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="#ffffff"
+                    android:textColor="#2f6699"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtAddress3"
+                    android:text=" Karnataka  -581359"
+                    android:paddingBottom="5dp"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="95dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="#ffffff"
+                    android:textColor="#2f6699"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="#ffffff">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:paddingBottom="5dp"
+                        android:textSize="20dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="2dp"
+                        android:text="Contact No :"
+                        android:background="#ffffff"
+                        android:id="@+id/txtPhone"
+                        android:textColor="#2f6699"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:text="9164953412"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:id="@+id/txtPhone1"
+                        android:textColor="#2f6699"
+                        android:background="#ffffff"/>
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="#ffffff">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Number of Users :"
+                        android:textColor="#2f6699"
+                        android:background="#ffffff"
+                        android:paddingLeft="5dp"
+                        android:paddingBottom="5dp"
+                        android:textSize="20dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="2dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:text="300 "
+                        android:textSize="15dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:id="@+id/txtReview"
+                        android:textColor="#2f6699"
+                        android:background="#ffffff"/>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="#ffffff">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:paddingBottom="5dp"
+                        android:textSize="20dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="2dp"
+                        android:text="Capacity :"
+                        android:id="@+id/txtCapacity"
+                        android:textColor="#2f6699"
+                        android:background="#ffffff"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:text="300 tons"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:id="@+id/txtCapacity1"
+                        android:textColor="#2f6699"
+                        android:background="#ffffff"/>
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:paddingBottom="5dp"
+                        android:textSize="20dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="2dp"
+                        android:text="Availibility :"
+                        android:id="@+id/txtAvailability1"
+                        android:textColor="#2f6699"
+                        android:background="#ffffff"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="150 tons"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:id="@+id/txtAvailability"
+                        android:textColor="#2f6699"
+                        android:background="#ffffff"/>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="#ffffff">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:background="#ffffff"
+                        android:paddingBottom="5dp"
+                        android:textSize="20dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="2dp"
+                        android:id="@+id/txtType1"
+                        android:text="Type :"
+                        android:textColor="#2f6699" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:background="#ffffff"
+                        android:id="@+id/txtType"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:text="Central Warehuse"
+                        android:textColor="#2f6699"
+                        />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="#ffffff">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:paddingBottom="5dp"
+                        android:background="#ffffff"
+                        android:id="@+id/txtRent1"
+                        android:textSize="20dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="2dp"
+                        android:textColor="#2f6699"
+                        android:text="Rent per day/ton:" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtRent"
+                        android:textSize="15dp"
+                        android:text="50 Rs"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:paddingBottom="5dp"
+                        android:background="#ffffff"
+                        android:textColor="#2f6699" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="#ffffff">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:textSize="20dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="2dp"
+                        android:paddingBottom="5dp"
+                        android:id="@+id/txtStorage_type"
+                        android:textColor="#2f6699"
+                        android:background="#ffffff"
+                        android:text="Storage Type :"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:text="cold"
+                        android:id="@+id/txtStorage_type1"
+                        android:textColor="#2f6699"
+                        android:background="#ffffff"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="#ffffff">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:background="#ffffff"
+                        android:paddingBottom="5dp"
+                        android:textSize="20dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="2dp"
+                        android:id="@+id/txtProduct_type"
+                        android:textColor="#2f6699"
+                        android:text="Products can be stored :"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dp"
+                        android:background="#ffffff"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:id="@+id/txtProduct_type1"
+                        android:textColor="#2f6699"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+        </ScrollView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            android:background="#ffffff">
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:text="Call"
+                android:id="@+id/btnCall"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:onClick="btnClickCall"
+                android:background="@drawable/round_button"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginBottom="4dp"
+                />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:text="Transport"
+                android:layout_weight="1"
+                android:id="@+id/btnTransport"
+                android:gravity="center"
+                android:background="@drawable/round_button"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:onClick="btnClickTransport"
+                android:layout_marginRight="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginBottom="4dp"
+                />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:text="Reviews"
+                android:textColor="#ffffff"
+                android:id="@+id/btnReview"
+                android:onClick="btnReviewClick"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/round_button"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:text="Map"
+                android:layout_weight="1"
+                android:id="@+id/btnMap"
+                android:onClick="btnClickMap"
+                android:background="@drawable/round_button"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginBottom="4dp"
+                android:gravity="center"
+
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/rounded_edittext"
+            android:textSize="15dp"
+            android:onClick="btnClickSubmit"
+            android:layout_marginRight="3dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginLeft="3dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="1dp"
+            android:text="BOOK WAREHOUSE"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

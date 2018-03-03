@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:descendantFocusability="blocksDescendants"
+    tools:context="myapplication.MainActivity">
+
+    <android.widget.SearchView
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:id="@+id/searchId"
+        android:queryHint="Search warehouse area or name">
+
+    </android.widget.SearchView>
+
+
+    <android.support.v4.widget.DrawerLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="false"
+        android:focusable="false"
+        android:id="@+id/drawerLayout">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mainList"
+            android:layout_margin="5dp"
+            android:dividerHeight="2dp"
+            android:choiceMode="singleChoice"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="true"
+            >
+        </ListView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#ffffff"
+            android:layout_gravity="left|start">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Select your preference"
+                android:textSize="22dp"
+                android:background="#ff7f50"
+                android:textColor="#000088"
+                android:gravity="center"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkCost"
+                android:text="Cost"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkDist"
+                android:text="Distance"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkRating"
+                android:text="High Rate"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/chkMost"
+                android:text="Most Accessed"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Favourite"
+                android:id="@+id/chkFav"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnSearch"
+                android:text="Search"
+                android:onClick="btnClick"/>
+
+        </LinearLayout>
+    </android.support.v4.widget.DrawerLayout>
+
+
+</LinearLayout>

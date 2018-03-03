@@ -1,0 +1,166 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <android.support.v4.widget.DrawerLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="false"
+        android:focusable="false"
+        android:id="@+id/drawerLayout1"
+        android:fitsSystemWindows="true"
+        android:descendantFocusability="blocksDescendants"
+        android:background="#ffffff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#2f6699">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="#2f6699"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mainList"
+                android:layout_margin="5dp"
+                android:dividerHeight="2dp"
+                android:choiceMode="singleChoice"
+                android:clickable="false"
+                android:focusable="false"
+                android:focusableInTouchMode="true">
+            </ListView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#ffffff"
+            android:layout_gravity="left|start">
+
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="#ffffff">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:textSize="30dp"
+                        android:textColor="#ffffff"
+                        android:text=""
+                        android:background="#2f6699"
+                        android:gravity="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="D W I"
+                        android:textSize="40dp"
+                        android:background="#2f6699"
+                        android:textColor="#ffffff"
+                        android:gravity="center"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:textSize="18dp"
+                        android:textColor="#ffffff"
+                        android:text="Select your preference"
+                        android:background="#2f6699"
+                        android:gravity="center"/>
+
+
+                    <EditText
+                        android:id="@+id/txtProduct"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="22dp"
+                        android:layout_margin="10dp"
+                        android:hint="Search product here "/>
+
+                    <Spinner
+                        android:id="@+id/spinner1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:popupBackground="#2f6699"
+                        android:background="@drawable/spinner_border"
+                        android:gravity="center"
+                        android:textAlignment="center"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"/>
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cold"
+                        android:id="@+id/chkCold"
+                        android:textSize="20dp"
+                        android:layout_margin="5dp"
+                        android:textColor="#2f6699"/>
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/chkRating"
+                        android:text="High Rating"
+                        android:textSize="20dp"
+                        android:layout_margin="5dp"
+                        android:textColor="#2f6699"/>
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/chkMost"
+                        android:text="Most Viewed"
+                        android:textSize="20dp"
+                        android:layout_margin="5dp"
+                        android:textColor="#2f6699"/>
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/chkAccredated"
+                        android:text="Accredated gvmnt"
+                        android:textSize="20dp"
+                        android:layout_margin="5dp"
+                        android:textColor="#2f6699"/>
+
+
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btnSearch"
+                        android:text="Search"
+                        android:layout_margin="20dp"
+                        android:background="@drawable/round_button1"
+                        android:textColor="#ffffff"
+                        android:onClick="btnClick"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </android.support.v4.widget.DrawerLayout>
+</LinearLayout>
